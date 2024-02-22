@@ -1,0 +1,251 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+     padding-left: 4%;
+     padding-top: 2%;
+     background: local;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     padding-bottom: 1%;
+    }
+
+#logo{
+    color: gold;
+    font-size: 25px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+ }
+ .logowhite{
+    color: aliceblue;
+ }
+#navul{
+    list-style: none;
+
+}
+.navli{
+    display: inline;
+    margin-right: 70px;
+    float: right;
+
+}
+.nava{
+    color: gold;
+    text-decoration: none;
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+   background-color: black;
+   
+}
+#home{
+    color: aliceblue;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal
+    
+}
+.homecontent{
+    padding-left: 5%;
+}
+#name{
+    color: white;
+    font-size: 45px;
+}
+#prof{
+    color: gold;
+    font-size: 40px;
+    text-align: left;
+}
+#Resume{
+    font-size: 15px;
+    float: right;
+    margin: 250px -635px 0px;
+    border-radius: 10PX;
+    background-color: gold;
+    color: black;
+    padding: 1%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-color: gold;
+    
+}
+#Resume:hover{
+    background-color: white;
+}
+#about{
+    height: 100vh;
+    padding-top: 2%;
+    color: white;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+#headabout{
+    font-size: 40px;
+    color: gold;
+}
+#abouttext{
+    padding-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+#skills{
+    height: 100vh;
+    padding-top: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.skillcontent {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    width: 150vh;
+  }
+  
+  h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .skill-bar {
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .skill-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: gold;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+  }
+#project{
+    height: 100vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#myproject{
+    color: gold;
+    text-align: center;
+}
+.pro{
+    height: 450px;
+    width: 300PX;
+    color: gold;
+    float: left;
+    margin: 5%;
+    text-align: center;
+    border: solid gold;
+    border-radius: 3%;
+}
+
+#contact{
+    height: 100vh;
+    padding-left: 35%;
+    padding-top: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal
+    
+}
+.contactform{
+    background-color:black;
+    color: aliceblue;
+    height: 450px;
+    border: solid gold;
+    width: 500px;
+    padding: 2%;
+    padding-left: 5%;
+    border-radius: 5%;
+}
+.contactform h2{
+    color: gold;
+}
+#nameform{
+    height: 20px;
+    width: 400px;
+    border-radius: 100px;
+    color: black;
+    font-size: 15px;
+    padding-left: 2%;
+}
+#email{
+    width: 400px;
+    height: 25px;
+    border-radius: 100px;
+    color: black;
+    font-size: 15px;
+    padding-left: 2%;
+}
+#msg{
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    padding-left: 2%;}
+#sub{
+    padding: 1%;
+    font-size: 20px;
+    border-radius: 20%;
+    background-color: gold;
+
+}
+#sub:hover{
+    background: white;
+}
+footer{
+    color: black;
+    text-align: center;
+    padding-bottom: 2%;
+    background: gold;
+    padding-top: 1%;
+    height: 10px;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+     
+     
+    
+}
